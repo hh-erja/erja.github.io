@@ -1,1 +1,127 @@
-Hej hopp i lingoskogen
+<!DOCTYPE html>  
+<html>  
+  
+<head> 
+    <title> 
+        Eric J&auml;rpe's homepage
+    </title>
+    <link rel="stylesheet" href="https://dixon.hh.se/erja/css/ericsty.css" type="text/css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+</head>
+  
+<body bgcolor="#ffffff">
+
+    <div id="background" style="position:absolute;left:0px;top:0px;z-order:4;decoration:none;visibility:visible">
+        <object data="background.html" width="1920" height="1080"></object>
+    </div>
+
+    <div id="name" style="position:absolute;left:5px;top:10px;z-order:5;decoration:none;visibility:visible;opacity:0.05">
+        <object data="ej.html" width="1000" height="1000"></object>
+    </div>
+
+    <div id="left_teach" style="position:absolute;left:20px;top:90px;z-order:1;decoration:none;visibility:visible" class="left">
+        Teaching
+    </div>
+
+    <div id="left_research" style="position:absolute;left:20px;top:120px;z-order:1;decoration:none;visibility:visible" class="left">
+        Research
+    </div>
+
+    <div id="left_cv" style="position:absolute;left:20px;top:150px;z-order:1;decoration:none;visibility:visible" class="left">
+        CV
+    </div>
+
+    <div id="left_misc" style="position:absolute;left:20px;top:180px;z-order:1;decoration:none;visibility:visible" class="left">
+        Miscallenous
+    </div>
+
+    <div id="left_eric" style="position:absolute;left:20px;top:210px;z-order:1;decoration:none;visibility:visible" class="left">
+        Who is Eric?
+    </div>
+
+    <div style="position:absolute;left:20px;top:240px;z-order:1;decoration:none;visibility:visible"> 
+        <img src="images/grey_dot.gif" height="1" width="180">
+    </div>
+
+    <div id="left_ite" style="position:absolute;left:20px;top:270px;z-order:1;decoration:none;visibility:visible" class="g5">
+        <a href="https://www.hh.se/om-hogskolan/akademier/akademin-for-informationsteknologi.html">School ITE</a>
+    </div>
+
+    <div id="left_hh" style="position:absolute;left:20px;top:300px;z-order:1;decoration:none;visibility:visible" class="g5">
+        <a href="https://www.hh.se">Halmstad University</a>
+    </div>
+
+    <div style="position:absolute;left:13px;top:400px;z-order:1;decoration:none;visibility:visible;opacity:0.3"> 
+        <object data="contact.html" width="200" height="700"></object>
+    </div>
+
+    <div id="teach" style="position:absolute;left:220px;top:50px;z-order:2;decoration:none;display:none">
+        <object data="teach.html" width="1200" height="1200"></object>
+    </div>
+
+    <div id="research" style="position:absolute;left:220px;top:50px;z-order:2;decoration:none;display:none">
+        <object data="research.html" width="1600" height="4000"></object>
+    </div>
+
+    <div id="cv" style="position:absolute;left:220px;top:50px;z-order:2;decoration:none;display:none">
+        <object data="cv.html" width="1200" height="4400"></object>
+    </div>
+
+    <div id="misc" style="position:absolute;left:220px;top:50px;z-order:2;decoration:none;display:none">
+        <object data="misc.html" width="1200" height="2000"></object>
+    </div>
+
+    <div id="eric" style="position:absolute;left:220px;top:80px;width:100%;z-order:2;decoration:none;display:none">
+        <object data="eric.html" width="1200" height="1000"></object>
+    </div>
+
+    <script> 
+        $(document).ready(function() {
+
+            $("#left_eric").click(function() {
+                $("#teach").hide()
+                $("#research").hide()
+                $("#cv").hide()
+                $("#misc").hide()
+                $("#eric").fadeToggle(800);
+            });
+
+            $("#left_teach").click(function() {
+                $("#eric").hide()
+                $("#research").hide()
+                $("#cv").hide()
+                $("#misc").hide()
+                $("#teach").fadeToggle(800);
+            });
+
+            $("#left_research").click(function() {
+                $("#eric").hide()
+                $("#teach").hide()
+                $("#cv").hide()
+                $("#misc").hide()
+                $("#research").fadeToggle(800);
+            });
+
+            $("#left_cv").click(function() {
+                $("#eric").hide()
+                $("#teach").hide()
+                $("#research").hide()
+                $("#misc").hide()
+                $("#cv").fadeToggle(800);
+            });
+
+            $("#left_misc").click(function() {
+                $("#eric").hide()
+                $("#teach").hide()
+                $("#research").hide()
+                $("#cv").hide()
+                $("#misc").fadeToggle(800);
+            });
+
+	});
+    </script> 
+
+</body>  
+  
+</html>
