@@ -1,0 +1,394 @@
+<html>
+<link rel="stylesheet" href="https://hh-erja.github.io/erja.github.io/css/ericsty.css"
+  type="text/css">
+<head>
+  <title>Random processes</title>
+</head>
+<body bgcolor="#ffffff">
+
+<div id="teach30"
+style="position:absolute;left:20px;top:15px;z-order:2;decoration:none;visibility:visible">
+<table border="0" cols="5" cellpadding="0" cellspacing="0" width="800">
+  <tr>
+    <td class="g5" width="88" rowspan="5" align="left"><a
+      href="http://www.hh.se" target="_top"><img
+      src="../../images/hhlogo.gif" border="0"></a>
+    </td>
+    <td class="g5" align="left" colspan="3">
+      <font class="g2">Random processes, period 3, 2005, for master
+      students</font>
+    </td>
+  </tr>
+  <tr>
+    <td class="g6" align="left" colspan="3"><img
+      src="../../images/grey_dot.gif" height="1" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td class="g5" width="192" align="left" valign="middle">Credits: 5
+    (7.5 ECTS)</td>
+    <td class="g5" width="256">Course coordinator: <a
+      href="http://www2.hh.se/staff/erja" target="_top">Eric
+      J&auml;rpe</a></td>
+    <td class="g5" width="264">Course code: STP855 (RPR850)
+    </td>
+  </tr>
+  <tr>
+    <td class="g6" align="left" colspan="3"><img
+      src="../../images/grey_dot.gif" height="1" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td class="g5" align="left" colspan="3"><a
+      href="pdf/course_syl.pdf">Course syllabus</a>
+    </td>
+  </tr>
+</table>
+</div>
+
+<div 
+style="position:absolute;left:25px;top:118px;z-order:2;decoration:none;visibility:visible">
+<table border="0" cols="1" cellpadding="15" cellspacing="0" bgcolor="#bbbbbb">
+  <tr>
+    <td class="g9" width="200">Please, find time to:
+      <table border="0" cols="2" cellpadding="1" cellspacing="0"
+        bgcolor="#134f8f" width="200">
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="register.html"><font class="g9">Register for the
+            course</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="literature.html"><font class="g9">Buy the course
+            literature</font></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="unionfee.html"><font class="g9">Pay the
+            student union fee</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" width="190" colspan="2">and eventually
+            also:
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="tentaanmalan.html"><font class="g9">Sign up for
+            writing exam</font></a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+<table border="0" cols="1" cellpadding="0" cellspacing="15" bgcolor="#bbbbbb"
+  width="200">
+  <tr><td class="g9" width="200">Other things:
+      <table border="0" cols="2" cellpadding="1" cellspacing="0"
+        bgcolor="#134f8f" width="200">
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="literature.html"><font
+            class="g9">Course literature and additonal
+            exercises</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="hhmap.html"><font
+            class="g9">Visiting map</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a href="pdf/theory.pdf"><font
+            class="g9">Theory summary</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="http://www.hh.se/net/Hem/Om+H%f6gskolan/Organisation/Sektionen+f%f6r+Informationsvetenskap%2C+Data-+och+Elektroteknik/Information+till+studenter+vid+IDE/Tentamen" target="_top"><font
+            class="g9">Exam schedule</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="pdf/course_syl.pdf" target="_top"><font
+            class="g9">Course syllabus</font></a></li>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br>
+</div>
+
+<div 
+style="position:absolute;left:20px;top:113px;z-order:2;decoration:none;visibility:visible">
+<table border="0" cols="1" cellpadding="15" cellspacing="0" bgcolor="#134f8f">
+  <tr>
+    <td class="g9" width="200">Please, find time to:
+      <table border="0" cols="2" cellpadding="1" cellspacing="0"
+        bgcolor="#134f8f" width="200">
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="register.html"><font class="g9">Register for the
+            course</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="literature.html"><font class="g9">Buy the course
+            literature</font></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="unionfee.html"><font class="g9">Pay the
+            student union fee</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" width="190" colspan="2">and eventually
+            also:
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="tentaanmalan.html"><font class="g9">Sign up for
+            writing exam</font></a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+<table border="0" cols="1" cellpadding="0" cellspacing="15" bgcolor="#134f8f"
+  width="200">
+  <tr><td class="g9" width="200">Other things:
+      <table border="0" cols="2" cellpadding="1" cellspacing="0"
+        bgcolor="#134f8f" width="200">
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="literature.html"><font
+            class="g9">Course literature and addtional
+            exercises</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="hhmap.html"><font
+            class="g9">Visiting map</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a href="pdf/theory.pdf"><font
+            class="g9">Theory summary</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="http://www.hh.se/net/Hem/Om+H%f6gskolan/Organisation/Sektionen+f%f6r+Informationsvetenskap%2C+Data-+och+Elektroteknik/Information+till+studenter+vid+IDE/Tentamen" target="_top"><font
+            class="g9">Exam schedule</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="g9" valign="top"><li type="square">
+          </td>
+          <td class="g9" width="180"><a
+            href="pdf/course_syl.pdf" target="_top"><font
+            class="g9">Course syllabus</font></a></li>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br>
+</div>
+
+<div id="teach31"
+style="position:absolute;left:300px;top:100px;z-order:2;decoration:none;visibility:visible">
+<table border="1" cols="1" cellpadding="10" cellspacing="0" width="400">
+  <!-- tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="400">
+        <tr>
+          <td class="g8" valign="top">
+           From the exam of <strong>Random processes 2005-12-17</strong>
+           two students passed:<br>
+           Ahmad, Kaleem<br>
+           Tabassam, Ahmad Ali<br>
+           <br>
+           I will now leave the corrected exams to the secretaries at
+           our department for reporting the results. If you want to
+           have your exam back you can get it from the secretaries.
+           You also have the opportunity of suggesting to me other
+           interpretations of your answers if you find that I have not
+           understood your answers right (in that case you must not
+           have the <i>original</i> exam but merely <i>copies</i> of
+           your answers to show me where you want me to reconsider
+           your marks).<br>
+           <br>
+           To all of you who wrote the exam and are not listed here and
+           you who waited for the next exam I wish you the very best of
+           luck! Next opportunity for writing the exam will be
+           13.30--17.30 2006-01-13 (observe that it is the afternoon!).
+           Next opportunity again will probably be at the end of May
+           2006 and next again at the end of August 2006, please check
+           the link <strong>Tentamensschema</strong> at the bottom of
+           the page <a href="http://www.hh.se/net/Hem/Om+H%f6gskolan/Organisation/Sektionen+f%f6r+Informationsvetenskap%2C+Data-+och+Elektroteknik/Information+till+studenter+vid+IDE/Tentamen" target="_top">Tentamen</a> for more accurate
+           information about date, time and
+           room, and also quite importantly, last day for exam registration
+           (usually a couple of weeks before the exam). If you want to
+           write the exam at distance, please contact the relevant staff
+           of your local school, tell me that you want to write at
+           distance and send me this contact information, and I will try
+           to contact the persons you recommended for some arrangement
+           for you to write the exam at you local school.<br>
+           <br>
+           I wish you all good luck in whatever you do!!<br>
+          </td>
+        </tr>
+        <tr>
+          <td class="g8" align="right">
+           Most kindly,<br>
+           <i>Eric J&auml;rpe</i>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr -->
+
+
+<table border="0" cols="1" cellpadding="10" cellspacing="0" width="400">
+  <tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="400">
+        <tr>
+          <td class="g8" valign="top">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g8" valign="top"><a
+            href="plan.html">Course schedule</a> with indications about
+            contents of lectures, exercise numbers, laboration pm etc.
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="400">
+        <tr>
+          <td class="g8" valign="top">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g8" valign="top"><a
+            href="schedule.html">Time schedule</a> with indications about
+            dates, times and class rooms.
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="400">
+        <tr>
+          <td class="g8" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g8" valign="middle" align="left"><a
+            href="pdf/formelsaml.pdf">Summary of formulae</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="400">
+        <tr>
+          <td class="g8" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g8" valign="middle" align="left"><a
+            href="lab.html">Laboration</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="400">
+        <tr>
+          <td class="g8" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g8" valign="middle" align="left"><a
+            href="prev_exams.html">Previous exams with solutions</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="400">
+        <tr>
+          <td class="g8" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g8" valign="middle" align="left"><a
+            href="pdf/thm.pdf">Proof of the theorem about Fourier transforms</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>
