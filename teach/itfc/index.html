@@ -1,0 +1,904 @@
+<html>
+<link rel="stylesheet" href="hh-erja.github.io/erja.github.io/css/ericsty.css"
+  type="text/css">
+<head>
+  <title>Krypteringsmetoder och s&auml;kring av datasystem</title>
+</head>
+<body bgcolor="#ffffff">
+
+<div id="teach30"
+style="position:absolute;left:20px;top:15px;z-order:2;decoration:none;visibility:visible">
+<table border="0" cols="5" cellpadding="0" cellspacing="0" width="1000">
+  <tr>
+    <td class="g5" width="88" rowspan="5" align="left"><a
+      href="http://www.hh.se" target="_top"><img
+      src="../../images/hhlogo.gif" border="0"></a>
+    </td>
+    <td class="g5" align="left" colspan="4">
+      <font class="bo4">Krypteringsmetoder och s&auml;kring av datasystem</font>
+    </td>
+  </tr>
+  <tr>
+    <td class="g6" align="left" colspan="4"><img
+      src="../../images/grey_dot.gif" height="1" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td class="g5" width="96" align="left" valign="middle">Po&auml;ng: 7.5
+    </td>
+    <td class="g5" width="200">Kursansvarig: <a
+      href="https://dixon.hh.se/erja" target="_top">Eric
+      J&auml;rpe</a></td>
+    <td class="g5" width="200">Kurskod: DI4014
+    </td>
+    <td class="g5" width="216">Anm&auml;lningskod: 13016
+    </td>
+  </tr>
+  <tr>
+    <td class="g6" align="left" colspan="4"><img
+      src="../../images/grey_dot.gif" height="1" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td class="g5" align="left" colspan="1"><a
+      href="https://www.hh.se/sitevision/proxy/student/innehall-a-o/kursplan.html/svid12_464ca102168ed1f8d3b1293f/752680950/se_proxy/utb_kursplan.asp?kurskod=DI4014&revisionsnr=3&format=pdf">Kursplan</a>
+    </td>
+  </tr>
+</table>
+</div>
+
+<!-- div 
+style="position:absolute;left:25px;top:100px;z-order:2;decoration:none;visibility:visible">
+<table border="1"><tr><td>
+<font class="g5"><strong><font color="#bb0000" size="+2">OBS!!!</font></strong></font>
+&Ouml;vningstimmen som skulle varit torsdag 24/3 flyttad till 10.15-12.00 fredag 25/3, sal R3149.
+</td></tr></table>
+</div -->
+
+<!-- top: +40 -->
+<div 
+style="position:absolute;left:25px;top:125px;z-order:2;decoration:none;visibility:visible">
+<table border="0" cols="1" cellpadding="15" cellspacing="0" bgcolor="#bbbbbb" width="220" style="table-layout:fixed">
+  <tr>
+    <td class="rw6" width="220">F&ouml;r att l&auml;sa kursen b&ouml;r du
+      snarast:
+      <table border="0" cols="2" cellpadding="1" cellspacing="0" bgcolor="#bbbbbb" width="220" style="table-layout:fixed">
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a href="https://www.hh.se/utbildning/program/it-forensik-och-informationssakerhet.html?event=TGITK22h"><font class="bw5">Antagas till
+            kursen</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a href="https://www.hh.se/student/innehall-a-o/registrera-dig-pa-kurs.html"><font class="bw5">Registrera dig p&aring; kursen</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="litteratur.html"><font class="bw5">Best&auml;lla kurslitteratur</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw6" width="190" colspan="2">och s&aring;
+            sm&aring;ningom &auml;ven:
+          </td>
+        </tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a href="https://www.student.ladok.se/student/app/studentwebb"><font class="bw5">Anm&auml;la dig till tentamen</font></a></li>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+<table border="0" cols="1" cellpadding="0" cellspacing="15" bgcolor="#bbbbbb" width="220" style="table-layout:fixed">
+  <tr><td class="rw6" width="220">&Ouml;vrigt att t&auml;nka p&aring;:
+      <table border="0" cols="2" cellpadding="1" cellspacing="0" bgcolor="#bbbbbb" width="220" style="table-layout:fixed">
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180"><a
+            href="litteratur.html"><font class="bw5">Kurslitteratur</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="hhmap.html"><font class="bw5">Bes&ouml;kskarta</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="../itff/formelsaml.pdf" target="_top"><font
+            class="bw5">Formelsamling</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="pdf/frekvenstabeller.xls" target="_top"><font
+            class="bw5">Frekvenstabeller</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="http://scrabbleforbundet.se/ordlistor/" target="_top"><font
+            class="bw5">Ordlistor</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="pdf/ovn1.pdf" target="_top"><font
+            class="bw5">Extra &ouml;vning p&aring; substitutionskrypton</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td width="180"><font class="rw5">Primtal:</font><br>
+            <font class="bw6"><li><a href="http://primes.utm.edu/lists/small/millions" target="_top"><font
+            class="bw6">De f&ouml;rsta 50 miljoner</font></a></li></font>
+            <font class="bw6"><li><a href="https://bigprimes.org/" target="_top"><font
+            class="bw6">Generator av upp till 300-siffriga primtal</font></a></li></font>
+            <font class="bw6"><li><a href="https://www.alpertron.com.ar/ECM.HTM" target="_top"><font
+            class="bw6">Alpertron: Dario Alperns faktoriserare</a></li></font>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="https://www.youtube.com/watch?v=gRm6ao1GZb0" target="_top"><font
+            class="bw5">G som i hemlig</font></a><br>
+            <font class="rw5">- en dokument&auml;r om<br>
+            Arne Beurlings kryptoanalys<br>
+            av G-skrivaren. Se den!!</font></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180">Exempel p&aring; mjukvara som anv&auml;nder Rainbowtabeller: <a
+              href="http://ophcrack.sourceforge.net" target="_top"><font class="bw5">Ophcrack</font></a></font></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180"><font
+            class="rw5">Stegnografimjukvaran <a
+              href="http://linux01.gwdg.de/~alatham/stego.html" target="_top"><font
+              class="bw5">JPHS</font></a><br>
+            Sida med <a href="http://www.jjtc.com/Steganography/tools.html" target="_top"><font class="bw5">102
+              steganografil&auml;nkar</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180">Om <a
+              href="https://www.youtube.com/watch?v=6H_9l9N3IXU&feature=youtu.be&t=7m28s"><font
+            class="bw5">kvantdatorn och Qubits</font><a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180"><a
+              href="https://courses.cs.washington.edu/courses/cse599d/06wi/"><font
+            class="bw5">Lecture notes on quantum computing</font></a> av Dave Bacon</li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180"><a
+              href="https://media.ccc.de/v/35c3-9926-the_year_in_post-quantum_crypto#t=2207"><font
+            class="bw5">The year in post-quantum crypto</font></a> av Lange och Bernstein</li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180">NISTs t&auml;vling om en ny <a
+              href="https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization"><font
+            class="bw5">post quantum public key krypteringsstandard</font><a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180"><a
+              href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&cad=rja&uact=8&ved=2ahUKEwiMgdrmnP_fAhVQbFAKHSUaC6gQFjAEegQIDhAC&url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.182.9999%26rep%3Drep1%26type%3Dpdf&usg=AOvVaw1FYLf6HdgOsYdc8A6qTM0r"><font
+            class="bw5">An introduction to mathematical cryptography</font></a> av Hoffstein, Pipher och Silverman (speciellt s. 387-436)</li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="pdf/overforingskvalitet_ex.pdf" target="_top"><font
+            class="bw5">Extra &ouml;vning p&aring; &ouml;verf&ouml;ringskvalitet</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="https://www.hh.se/student/innehall-a-o/tenta.html" target="_top"><font
+        class="bw5">Tentamensschema</a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180">Till&aring;ten minir&auml;knare: <a
+            href="https://education.ti.com/sv/produkter/raknare/skolraknare/ti-30xa" target="_top"><font
+        class="bw5">TI-30Xa</a><!-- (Finns nu att kvittera ut som l&aring; fr&aring;n Servicecenter.) --></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="https://www.hh.se/student/innehall-a-o/tentor-att-hamta-ut.html#hh-TentorfranITE" target="_top"><font
+        class="bw5">Finns duggan/tentan i Servicecenter f&ouml;r uth&auml;mtning?</a></li>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br>
+</div>
+
+<!-- top: +40 -->
+<div 
+style="position:absolute;left:20px;top:120px;z-order:2;decoration:none;visibility:visible">
+<table border="0" cols="1" cellpadding="15" cellspacing="0" bgcolor="#000000" width="220" style="table-layout:fixed">
+  <tr>
+    <td class="rw6" width="220">F&ouml;r att l&auml;sa kursen b&ouml;r du
+      snarast:
+      <table border="0" cols="2" cellpadding="1" cellspacing="0" bgcolor="#000000" width="220" style="table-layout:fixed">
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a href="https://www.hh.se/utbildning/program/it-forensik-och-informationssakerhet.html?event=TGITK22h"><font class="bw5">Antagas till
+            kursen</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a href="https://www.hh.se/student/innehall-a-o/registrera-dig-pa-kurs.html"><font class="bw5">Registrera dig p&aring; kursen</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="litteratur.html"><font class="bw5">Best&auml;lla
+            kurslitteratur</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw6" width="190" colspan="2">och s&aring;
+            sm&aring;ningom &auml;ven:
+          </td>
+        </tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a href="https://www.student.ladok.se/student/app/studentwebb"><font class="bw5">Anm&auml;la dig till tentamen</font></a></li>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<br>
+<table border="0" cols="1" cellpadding="0" cellspacing="15" bgcolor="#000000" width="220" style="table-layout:fixed">
+  <tr><td class="rw6" width="220">&Ouml;vrigt att t&auml;nka p&aring;:
+      <table border="0" cols="2" cellpadding="1" cellspacing="0" bgcolor="#000000" width="220" style="table-layout:fixed">
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180"><a
+            href="litteratur.html"><font class="bw5">Kurslitteratur</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="hhmap.html"><font class="bw5">Bes&ouml;kskarta</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="../itff/formelsaml.pdf" target="_top"><font
+            class="bw5">Formelsamling</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="pdf/frekvenstabeller.xls" target="_top"><font
+            class="bw5">Frekvenstabeller</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="http://scrabbleforbundet.se/ordlistor/" target="_top"><font
+            class="bw5">Ordlistor</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="pdf/ovn1.pdf" target="_top"><font
+            class="bw5">Extra &ouml;vning p&aring; substitutionskrypton</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td width="180"><font class="rw5">Primtal:</font><br>
+            <font class="bw6"><li><a href="http://primes.utm.edu/lists/small/millions" target="_top"><font
+            class="bw6">De f&ouml;rsta 50 miljoner</font></a></li></font>
+            <font class="bw6"><li><a href="https://bigprimes.org/" target="_top"><font
+            class="bw6">Generator av upp till 300-siffriga primtal</font></a></li></font>
+            <font class="bw6"><li><a href="https://www.alpertron.com.ar/ECM.HTM" target="_top"><font
+            class="bw6">Alpertron: Dario Alperns faktoriserare</a></li></font>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="https://www.youtube.com/watch?v=gRm6ao1GZb0" target="_top"><font
+            class="bw5">G som i hemlig</font></a><br>
+            <font class="rw5">- en dokument&auml;r om<br>
+            Arne Beurlings kryptoanalys<br>
+            av G-skrivaren. Se den!!</font></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180">Exempel p&aring; mjukvara som anv&auml;nder Rainbowtabeller: <a
+              href="http://ophcrack.sourceforge.net" target="_top"><font class="bw5">Ophcrack</font></a></font></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180"><font
+            class="rw5">Stegnografimjukvaran <a
+              href="http://linux01.gwdg.de/~alatham/stego.html" target="_top"><font
+              class="bw5">JPHS</font></a><br>
+            Sida med <a href="http://www.jjtc.com/Steganography/tools.html" target="_top"><font class="bw5">102
+              steganografil&auml;nkar</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180">Om <a
+              href="https://www.youtube.com/watch?v=6H_9l9N3IXU&feature=youtu.be&t=7m28s"><font
+            class="bw5">kvantdatorn och Qubits</font><a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180"><a
+              href="https://courses.cs.washington.edu/courses/cse599d/06wi/"><font
+            class="bw5">Lecture notes on quantum computing</font></a> av Dave Bacon</li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180"><a
+              href="https://media.ccc.de/v/35c3-9926-the_year_in_post-quantum_crypto#t=2207"><font
+            class="bw5">The year in post-quantum crypto</font></a> av Lange och Bernstein</li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180">NISTs t&auml;vling om en ny <a
+              href="https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization"><font
+            class="bw5">post quantum public key krypteringsstandard</font><a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180"><a
+              href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&cad=rja&uact=8&ved=2ahUKEwiMgdrmnP_fAhVQbFAKHSUaC6gQFjAEegQIDhAC&url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.182.9999%26rep%3Drep1%26type%3Dpdf&usg=AOvVaw1FYLf6HdgOsYdc8A6qTM0r"><font
+            class="bw5">An introduction to mathematical cryptography</font></a> av Hoffstein, Pipher och Silverman (speciellt s. 387-436)</li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="pdf/overforingskvalitet_ex.pdf" target="_top"><font
+            class="bw5">Extra &ouml;vning p&aring; &ouml;verf&ouml;ringskvalitet</font></a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="https://www.hh.se/student/innehall-a-o/tenta.html" target="_top"><font
+        class="bw5">Tentamensschema</a></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="rw5" width="180">Till&aring;ten minir&auml;knare: <a
+            href="https://education.ti.com/sv/produkter/raknare/skolraknare/ti-30xa" target="_top"><font
+        class="bw5">TI-30Xa</a><!-- (Finns nu att kvittera ut som l&aring; fr&aring;n Servicecenter.) --></li>
+          </td>
+        </tr>
+        <tr>
+          <td class="rw4" valign="top"><li type="bullet">
+          </td>
+          <td class="bw5" width="180"><a
+            href="https://www.hh.se/student/innehall-a-o/tentor-att-hamta-ut.html#hh-TentorfranITE" target="_top"><font
+        class="bw5">Finns duggan/tentan i Servicecenter f&ouml;r uth&auml;mtning?</a></li>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table><br>
+</div>
+<div 
+style="position:absolute;left:680px;top:120px;z-order:2;decoration:none;visibility:visible">
+<table border="0" cols="1" cellpadding="3" cellspacing="0" width="430">
+<tr>
+        <td class="bw5" bgcolor="#000000">Uppsnappat</td>
+</tr>
+</table>
+<table border="0" cols="1" cellspacing="0" cellpadding="0" colspan="2" width="430">
+<tr>
+  <td>
+<br>
+<!-- li type="bullet"><font class="g6">[P1, Ekonyheter 2021-07-04]<br>
+                  <a href=""></a></font><br><br><li -->
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1 Gr&auml;ns 2024-12-12]<br>
+                  <a href="https://www.svt.se/nyheter/vetenskap/googles-kvantdatorchip-willow-raknar-10-kvadriljoner-ganger-snabbare-an-superdatorer">Googles kvantdator s&auml;tter nya rekord</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1 Gr&auml;ns 2023-10-20]<br>
+                  <a href="https://sverigesradio.se/avsnitt/darfor-haktas-fra-kvinnan-och-toppmilitaren-grans">Kvinna vid FRA och man vid MUST spionmisst&auml;nkta</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1 Gr&auml;ns 2023-08-17]<br>
+                  <a href="https://sverigesradio.se/avsnitt/terrorhoten-som-skakar-sveriges-sakerhet-grans">Terrorhoten som skakar Sveriges s&auml;kerhet</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[IEEE Spectrum 2022-08-19]<br>
+                  <a href="https://spectrum.ieee.org/quantum-safe-encryption-hacked">Kvantdators&auml;ker kryptering hackad</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, P1-morgon 2022-03-16]<br>
+                  <a href="https://sverigesradio.se/avsnitt/sapo-om-sakerhetshoten-mot-sverige">Operativ chef vid S&Auml;PO Anna Sj&ouml;berg om s&auml;kerhetshotet mot Sverige i skuggan av Rysslands krig mot Ukraina</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, P1-morgon 2022-02-02]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1872603">MSB:s rapport om cyberattacker under 2021</a> (100:00 in i programmet)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2022-01-14]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1859107">Massiv hackerattack mot ukrainska myndigheter</a> (9:00 in i programmet)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Gr&auml;ns 2021-12-29]<br>
+                  <a href="https://sverigesradio.se/avsnitt/special-spionbroderna-och-sapo">Spionbr&ouml;derna och S&Auml;PO</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2021-12-21]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1848218">Om brist p&aring; anti-bluffmail-programvara och om antal svenska kriminella kopplade till chatverktyget Sky</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Studio ett 2021-12-20]<br>
+                  <a href="https://sverigesradio.se/avsnitt/studio-ett-mandag-20-december">&Auml;nnu mer om IT-attacken mot Kalix</a> (1:28:55 in i programmet)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Studio ett och Ekonyheter 2021-12-17]<br>
+                  <a href="https://sverigesradio.se/avsnitt/studio-ett-fredag-17-december">Om IT-attacken mot Kalix och dess konsekvenser</a> (Ekonyheterna 0:45:40 och i Studio ett 0:59:00)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Gr&auml;ns 2021-12-01]<br>
+                  <a href="https://sverigesradio.se/avsnitt/cyberattacken-mot-idrottssverige">Cyberattacken mot idrottssverige</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Gr&auml;ns 2021-09-13]<br>
+                  <a href="https://sverigesradio.se/avsnitt/de-flog-det-sista-svenska-planet-ur-afghanistan">Sista planet ur Afganistan</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Gr&auml;ns 2021-08-25]<br>
+                  <a href="https://sverigesradio.se/avsnitt/spioner-i-sverige">Spioner i Sverige</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2021-07-04]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1738379">Global IT-attack mot Kaseya drabbade Coop</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2021-06-08]<br>
+                  <a href="https://sverigesradio.se/artikel/damberg-stolt-over-storsta-insatsen-nagonsin-i-sverige">Sveriges st&ouml;rsta polisinsats n&aring;gonsin enligt inrikesministern</a> och <a href="https://sverigesradio.se/artikel/europol-om-tillslaget-mot-organiserad-brottslighet">en l&auml;nk till</a> och <a href="https://sverigesradio.se/artikel/svenska-polisen-insats-stoppade-ett-tiotal-mord">en till</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2021-06-08]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1724691">N&aring;gra av v&auml;rldens st&ouml;rsta nyhetssajter nere under en hel timme</a> och <a href="https://sverigesradio.se/artikel/flera-stora-nyhetssajter-ligger-nere">, en  till l&auml;nk</a> och <a href="https://sverigesradio.se/artikel/msb-allvarligt-att-inte-kunna-komma-at-viktiga-tjanster">en till</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2021-04-14]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1689972">Bevismaterial mot kriminella n&auml;tverk som an&auml;nt kommunikationsverktyget Sky ECC</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekospecial 2021-04-05]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1685814">&Aring;tal mot kriminella n&auml;tverk efter att Encrochat kn&auml;ckts</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekospecial 2021-02-23]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1676325">Massor av digitalt bevismaterial efter forceringen av Encrochat</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2021-04-01]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1682040">Misst&auml;nkt cyberattack mot alkol&aring;s</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2021-03-18]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1673450">Hoten &ouml;kar mot Sverige</a> och <a href="https://sverigesradio.se/avsnitt/1673450">Hat och hot i pandemins sp&aring;r</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2021-03-06]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1663937">Stor hackerattack</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Kulturnytt 2021-03-04]<br>
+                  <a href="https://sverigesradio.se/artikel/7685681">Digital kryptokonst</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Kulturnytt 2021-03-03]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1663807">CV-st&ouml;lder</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Algoritmen 2021-02-23]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1673450">CV-st&ouml;lder</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Kulturnytt 2021-02-10 och 2021-02-12]<br>
+                  St&ouml;lder av bokmanuskript: <a href="https://sverigesradio.se/avsnitt/1650958">f&ouml;rfattarf&ouml;rbundets reaktion</a> och  <a href="https://sverigesradio.se/avsnitt/1650958">polisens kommentar</a> i &auml;renden</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Vetenskapsradions nyheter 2021-01-28]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1650958">Svensk cybers&auml;kerhetst&auml;vling</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Nordegren &amp; Epstein 2021-01-19]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1650958">Vad g&ouml;r en cybersoldat?</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, USA-podden 2020-12-23]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1645289">USA-podden om omfattande cyberattack mot USA</a> (spola fram till 30:00)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2020-12-17]<br>
+                  <a href="https://sverigesradio.se/artikel/7626810">Massiv hackerattack mot USA</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2020-12-10]<br>
+                  <a href="https://sverigesradio.se/artikel/7621258">Nytt nationellt center f&ouml;r cybers&auml;kerhet</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2020-12-10]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1616351">Skyddsobjekt l&auml;ckta p&aring; n&auml;tet</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2020-12-02]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1612422">Franska polisen kn&auml;ckte kriminellas kryptering med Encrochat</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2020-11-25]<br>
+                  <a href="https://sverigesradio.se/artikel/7601665">Nytt nationellt center f&ouml;r cybers&auml;kerhet</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[Hallandsdsposten, 2020-06-28]<br>
+                  <a href="https://www.hallandsposten.se/nyheter/sverige/nya-m%C3%A5l-f%C3%B6r-cyberattacker-1.30450803">Nya m&aring;l f&ouml;r cyberattacker i Sverige</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[Hallandsdsposten, 2020-06-03]<br>
+                  <a href="https://www.hallandsposten.se/nyheter/sverige/myndigheter-trycker-p%C3%A5-om-cyberhot-1.28794137">&Ouml;nskan om nytt centrum f&ouml;r cybers&auml;kerhet</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonomiekot kl 18.03 2020-05-07]<br>
+                  <a href="https://drive.google.com/file/d/1x3BUKvnAmS6BE64lVmQ56_6vn4DzaNz0/view?usp=sharing">Tj&auml;nsten BankID utsatt f&ouml;r &ouml;verbelastningsattack</a> (1 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter kl 9.00 2020-04-28]<br>
+                  <a href="https://drive.google.com/file/d/155dIB9ZH0HgjwuMFwOIJ7uQAZtINToj2/view?usp=sharing">S&aring;rbarheten i samh&auml;llet &ouml;kar pga Coronapandiemin</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Konflikt 2020-03-14]<br>
+                  <a href="https://sverigesradio.se/avsnitt/1478848">Cyberattackerna mot v&aring;ra tankar</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Konflikt 2020-01-18]<br>
+<a href="https://drive.google.com/open?id=1peLjpd-PxHIQdghbXSi01X_VbkTbmZeM">Om cyberkriget kommer</a> (57 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekohyheter 2020-01-14]<br>
+<a href="https://drive.google.com/open?id=1F10o8G1F29FaqNNapg4pWEwp3Ddql9XE">Om cyberattacker mot SVT</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Studio ett 2019-10-29]<br>
+<a href="https://drive.google.com/file/d/1onxFLCvpTnw_gaNPnYmomqEOu8wV9fdt/view?usp=sharing">Nordiska r&aring;dets s&auml;kerhetssamarbete</a> (15 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, P1-morgon 2019-12-03]<br>
+<a href="https://drive.google.com/file/d/17nkqQWmtIrFznZPyF1ITovLXU2qmoBtk/view?usp=sharing">Om kortbedr&auml;gerier</a> (8 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Konflikt 2019-10-19]<br>
+                  <a href="https://drive.google.com/file/d/1JX1bgWbp-9tmtk0jxQ5-ND5EInBWAudf/view?usp=sharing">Om den nya kryptovalutan Libra</a> (55 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter kl 7.00 2019-09-05]<br>
+                  <a href="https://drive.google.com/file/d/1psFWiLyfn06GpCnroIuM1SpHxbM6qtyy/view?usp=sharing">Websurfare identifierade</a> (1 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2019-08-21]<br>
+                  <a href="https://drive.google.com/file/d/1ig7l1DuVt6-a57NwaCBtQgPwRXohD_mU/view?usp=sharing">NFC analyserar spr&auml;ngningar i Malm&ouml;</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter kl 8.00 2019-08-16]<br>
+                  <a href="https://drive.google.com/file/d/1d_g4LtbbLvDzvIkm_-Yjup_RdKm0g4x_/view?usp=sharing">Om polisens bildigenk&auml;nning</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Nyheter fr&aring;n vetenskapsradion 2019-07-24]<br>
+                  <a href="https://drive.google.com/file/d/1__lM03U1dGUh6gH9dxeawQwlARPGtM2D/view?usp=sharing">Anonymiteten p&aring; internet hotad</a> (5 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, I lagens namn 2019-07-21]<br>
+                  <a href="https://drive.google.com/open?id=1XtFOkPojthlRNrZmmls5ot15fttle3wI">Digitala bevis avg&ouml;rande vid &ouml;vergrepp mot barn</a> (30 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2019-07-14]<br>
+                  <a href="https://drive.google.com/open?id=1eOB82sQP7iPRJZmnweGYHlmqYmhA8vU3">H&auml;lsoappar installerar virus och spionprogram &auml;ven d&aring; de ej anv&auml;nds</a> (3 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Kaliber 2019-03-04]<br>
+                  <a href="https://drive.google.com/open?id=1Bt_GERWe5qN09CoUSVtrqVWx9Cjr9mog">Bluffakturor som drivs in av kronofogden</a> (33 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2019-01-28]<br>
+                  <a href="https://sverigesradio.se/sida/artikel.aspx?programid=83&artikel=7143498">Teleproblem f&ouml;r flera myndigheter efter cyberattack</a> (3 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Studio ett 2019-01-17]<br>
+                  <a href="https://drive.google.com/open?id=1mEO_0Eogci5s0Em3GfB9uarYYgGNnsQU">Anklagelser om kinesiskt industrispionage</a> (17 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, P1-morgon 2019-01-17]<br>
+                  <a href="https://drive.google.com/open?id=1tCF5A8i0ebdlQCWtkzEeaFaTc-iZZpKR">S&Auml;PO-chefen Klas Friberg om vad som kan goras f&ouml;r att minska risken f&ouml;r terrorattacker i Sverige</a> (11 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2019-01-15]<br>
+                  <a href="https://drive.google.com/open?id=16WzYC8KYivjl60rILjgA435YvMBOza-O">Ekonyheter om datalagring och falska f&ouml;ljare p&aring; sociala medier</a> (3 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2018-10-18]<br>
+                  <a href="https://drive.google.com/open?id=1WAju29o6BdDZU8fYdHywnicMQ2l9dUyb">Om terrorismens internationalisering<!--Ekos&auml;ndn. om vikten av signalspaning--></a> (3 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Uppkopplad 2018-02-05]<br>
+                  <a href="https://drive.google.com/open?id=1VhgHWlaUExY6zpwHtetOkJ42ktv9PFr4">Inslag om l&ouml;senord och hackerattacker</a> (33 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-10-12]<br>
+                  <a href="https://drive.google.com/open?id=1Ptz0nm8DGP7oe9LzFX0E3RR2xuXqCQEm">Om krav p&aring; b&auml;ttre skydd mot IT-angrepp</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-10-11]<br>
+                  <a href="https://drive.google.com/open?id=19iLIUfJLx4ONAyq-DcswiYrnn0T2p8b4">Polisen kritisk mot nya datalagringslagen</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-10-11]<br>
+                  <a href="https://drive.google.com/open?id=1HwPOOCB3jMOTmck8a6jrNQ2wt3H5SLT-">S&Auml;PO om den nya datalagringslagen</a> (1 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-10-11]<br>
+                  <a href="https://drive.google.com/open?id=1S-JQoWYUrJweHAwSrDPLZ8vTqbhxRsgw">Om datalagring och en hackerattack</a> (3 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Den g&ouml;mda koden 2017-10-07]<br>
+                  <a href="https://drive.google.com/open?id=1xJjiDn5Ym1ECEzAhaE5a7Kb_PhIVHAA8">Internets mardr&ouml;m</a> (10 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, P1-morgon 2017-10-05]<br>
+                  <a href="https://drive.google.com/open?id=1HhAKsJ5SfCCfOVfzutnp5iOfEAETJE6F">IT-s&auml;kerheten enligt rikspolischefen</a> (7 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-10-05]<br>
+                  <a href="https://drive.google.com/open?id=1Hbt42hM_evdvjVhy5p7yoeyFGheeqobS">SKL om IT-s&auml;kerhetsbrister</a> (3 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Den g&ouml;mda koden 2017-09-30]<br>
+                  <a href="https://drive.google.com/open?id=1_iAa-VbGMo9t4H2-2RnaqMmaFpbrti6R">Spooky action</a> (10 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-09-24]<br>
+                  <a href="https://drive.google.com/open?id=1jifi2WizDnjdTPmPQtdkkrY9JpIdxTAz">Sammanfattning av IT-skandalen vid Transportstyrelsen</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Kaliber special 2017-09-18]<br>
+                  <a href="https://drive.google.com/open?id=1-tbgdgamyPKxPT4TmkSCx5XELiQc4_6R">Rikspolischefen om IT-s&auml;kerhet</a> (30 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-07-24]<br>
+                  Presstr&auml;ff om IT-skandalen p&aring; transportstyrelsen<br>
+                  <a href="https://drive.google.com/open?id=1pWr6tVPoBAMsNLJ58OQK_UC11DKJrB0d">Del 1</a> (9 min)<br>
+                  <a href="https://drive.google.com/open?id=1e7rWXQHaCjc82ia4u1SBJejRenfzlzP-">Del 2</a> (11 min)<br>
+                  <a href="https://drive.google.com/open?id=1IX3PaWuDsFrmida4nf_R_gs2hL6BheX4">Del 3</a> (9 min)<br>
+                  <a href="https://drive.google.com/open?id=1gnwzKKAVZCeIQjcl2HN7t_eIDrDtJAeU">Del 4</a> (7 min)<br>
+                  <a href="https://drive.google.com/open?id=1ufMVQfmfOvfjXBdBZ9OJR-qJyjYaNPfc">Del 5</a> (3 min)<br>
+                  <a href="https://drive.google.com/open?id=1fBTvasr186uO1twpIfgmgHeNF3nvgins">Del 6</a> (16 min)<br>
+                  <a href="https://drive.google.com/open?id=14pJuk3UlHEtW7QBGsOSF4-gnf2s2RI_D">Del 7</a> (34 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-07-07]<br>
+                  <a href="https://drive.google.com/open?id=16QmkYWFJlFDUQGgIdN53tOIg9fswdqGW">EU-l&auml;nder vill ha ny lag om datalagring</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-06-27]<br>
+                  <a href="https://drive.google.com/open?id=1ktG_J3IGmxL1o_yTHMiijoMHlKaM_a_6">Artikel om en ny virusattack mot f&ouml;retag</a><br>
+                  <a href="https://sverigesradio.se/avsnitt/887402">Ekos&auml;ndn. om Wannacry - st&ouml;rsta ransomwareattacken n&aring;gonsin</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-05-13]<br>
+                  <a href="https://drive.google.com/open?id=1gZsE5tWpKx3JBD9QzaMsemkGFr6RRMdR">Om ransomwaret wannacry</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-05-06]<br>
+                  <a href="https://drive.google.com/open?id=1sfY9GyI1RHTIACUk5kuUMdl50fUtK-oh">Om hackerattack mot Macron under franska presidentvalet 2017</a> (3 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[Ljudcollage 2017-04-05]<br>
+                  <a href="https://drive.google.com/open?id=1Y6IrF629B2fGrBS8oyfHrauRCd7nYg8N">P1, Ekonyheter, P4 Blekinge, Radio Sweden</a> (5 min)<br>
+                   Ljudcollage av 3 olika s&auml;ndningar fr&aring;n Sveriges Radio ang&aring;ende den internationella hackerattack som uppdagades 5 april 2017.</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, P1-morgon 2017-03-21]<br>
+                  <a href="https://drive.google.com/open?id=12_1gy7oqbPuOFxUIcv1gc4hmcyKrZbNZ">Nya regler f&ouml;r att ta med elektronisk utrustning p&aring; flygplan</a> (5 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2017-03-21]<br>
+                  <a href="https://drive.google.com/open?id=1IcLmW6MiaCBBBaAG_MonfVIIW1koVvu3">Milit&auml;rt samrbete med USA</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, P1-morgon 2017-03-15]<br>
+                  <a href="https://drive.google.com/open?id=1szQcfkLa-WsLrbwXW1HyCLX2gId4bVSC">Robert Malmgren, IT-s&auml;kerhetsexpert, om hackerattacker mot eln&auml;tet</a> (4 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Vetenskapsradion 2017-02-13]<br>
+                  <a href="https://drive.google.com/open?id=1zmKRtx-38vbDJ_kd_1ERiHJJnx5GOs8n">Om krigsf&ouml;ring via internet</a> (3 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Vetandets v&auml;rld 2017-02-13]<br>
+                  <a href="https://drive.google.com/open?id=10q8XWYYDpvx1ljHGG7nh9nB16br4ajb3">&Auml;nnu mer om krigsf&ouml;ring via internet</a> (20 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[SVT2, Vetenskapens v&auml;rld 2016-11-07]<br>
+                  <a href="http://www.svtplay.se/video/10988241/vetenskapens-varld/vetenskapens-varld-sasong-26-avsnitt-12">Om s&auml;kerheten kring internets k&auml;rna</a> (avsnitt 12, s&auml;song 26)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Studio ett 2016-10-10]<br>
+                  <a href="https://drive.google.com/open?id=1VXfAxCDRzvWKFKJz9NvNtUtcqobzSvIV">Om IT-s&auml;kerhet</a> (13 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Vetenskapsradion 2016-08-17]<br>
+                  <a href="https://drive.google.com/open?id=1iRaOhYWLlUBml-1cuBOHEuRhDKLDR8af">Den f&ouml;rsta satelliten f&ouml;r kommuikation mha kvantkryptering</a> (1 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2016-04-25]<br>
+                  <a href="https://drive.google.com/open?id=14YDo34jaZL28I3pCTDRKj5DdBtLSoxSo">Om det v&auml;xande hotet fr&aring;n ransomware</a> (2 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Vetandets v&auml;rld 2016-02-10]<br>
+                  <a href="https://drive.google.com/open?id=1EZyPhbyb7o77B5A7Y84ecRY9Ouciu0qY">Lars Str&ouml;mberg, KTH, om s&auml;kerhetsrisken med de nya okrypterade biometriska passen som anv&auml;nder RFID</a> (6 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2016-01-26]<br>
+                  <a href="https://drive.google.com/open?id=13HVmYdOm0ZWJyZuJF2ALbm1QU4a4fe1d">Fredrik Wallin, FRA, om det &ouml;kade s&auml;kerhetshotet mot Sverige under 2015</a> (3 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Den g&ouml;mda koden 2015-12-12]<br>
+                  <a href="https://drive.google.com/open?id=1ttCuvsYfXJOOqxMQMei2d9p3jn1_qa6-">Den hemliga informationens st&auml;ndiga svaghet</a> (10 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Vetandets v&auml;rld 2014-07-18]<br>
+                  <a href="https://drive.google.com/open?id=1mxz1HOGM92g6Tu9YshEkunsrnQvSZqji">Om kvantdatorn</a> (20 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Vetenskapsradion 2014-01-29]<br>
+                  <a href="https://drive.google.com/open?id=1WeZn56YutithBIpOE5kdx1_AH-RaLVEB">En app som ska skydda mot NSAs avlyssning</a> (5 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2014-01-28]<br>
+                  <a href="https://drive.google.com/open?id=1rQYfGr1XmpqXv1sOf5tM5V9oX3dDOg16">Spionage mha mobil-appar</a> (18 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2014-01-28]<br>
+                  <a href="https://drive.google.com/open?id=11SgsgY-Fc9WUeapmjyQ21OEaq7iIaBFu">NSAs avlyssning av privatpersoners mobiltelefoner via appar (s&aring;som spel) (2 min)</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekonyheter 2013-09-06]<br>
+                  <a href="">Om hackade krypteringssystem &ouml;ver hela v&auml;rlden</a></font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[Aftonbladet, 2012-11-21]<br>
+                  <a href="http://www.aftonbladet.se/nyheter/article15813696.ab">Aftonbladets artikel</a> om skelettkvinnans dator</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Vetenskapsradion 2011-05-06]<br>
+                  <a href="https://drive.google.com/file/d/1YMnfT5ymcn7Xagiov95VrQIu4uSFak8A/view?usp=sharing">Nyheten om Usama Bin Ladens h&aring;rddiskar</a> (5 min)</font></li><br><br></td></tr>
+<tr><td valign="top"><li type="bullet"></td><td><font class="g6">[P1, Ekot 2011-06-09]<br>
+                  S&auml;kerhetsf&ouml;retaget RSA utsatt f&ouml;r en hackerattack<br>
+                  <a href="http://sverigesradio.se/sida/artikel.aspx?programid=83&artikel=4545580">Sveriges Radios sida om detta</a><br>
+                  <a href="intranet/rsa_cyber_attack_2011-06-09/node.aspx.html">RSAs egen information om detta (cachad)</a></font></li><br><br></td></tr>
+  </td>
+</tr>
+</table>
+<br><br>
+</div>
+
+
+
+<!-- top: +40 -->
+<div id="teach35"
+style="position:absolute;left:290px;top:110px;z-order:2;decoration:none;visibility:visible">
+<table border="0" cols="1" cellpadding="10" cellspacing="0" width="370">
+  <!--tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="370">
+        <tr>
+          <td class="g5" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g5" valign="middle"><a href="pdf/FRA_besok.pdf">Missa inte FRA-dagarna 23-24 januari!</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td class="g6" valign="middle">... Intervjuer, f&ouml;redrag, fika...<br>
+            <table border="0"><tr><td><img src="pdf/FRA.jpg" width="120"></td><td>&nbsp;</td><td class="g6">
+            Skicka in ditt CV senast den <strong>15 januari</strong> f&ouml;r att se hur aktuell du skulle kunna vara f&ouml;r en tj&auml;nst vid den svenska krypteringsmyndigheten Nr 1.</td></tr></table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr-->
+  <!-- tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="370">
+        <tr>
+          <td class="g5" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g5" valign="middle">N&aring;gra viktiga nedslag ur kursinneh&aring;llet
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td class="g6" valign="middle">
+          <ul>
+            <li><a href="pdf/summary.pdf">Sammanfattning</a> - kortfattad beskrivning av kursens inneh&aring;ll i termer av delarna: Matematik, Datas&auml;kerhet och Historia.</li>
+            <li><a href="intranet/summary_ovn.pdf">N&aring;gra extra &ouml;vningsuppgifter</a> - som anknyter till sammanfattningen.</li>
+            <li><a href="intranet/summary_uppg1.pdf">L&ouml;sning av uppgift 1</a> - bland &ouml;vningsuppgifterna till sammanfattningen.</li>
+            <li><a href="intranet/summary_uppg2.pdf">L&ouml;sning av uppgift 2</a> - bland &ouml;vningsuppgifterna till sammanfattningen.</li>
+          </ul>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr-->
+  <!--tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="0">
+        <tr>
+          <td class="g5" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g5" valign="middle"><a href="intranet/dekryptering_tommy_farnqvist.pdf">Dekryptering i praktiken</a>
+          </td><td rowspan="2"><img src="../../images/tommy.png" width="120"><br>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td class="g6" valign="middle">G&auml;stf&ouml;rel&auml;sning av Tommy F&auml;rnqvist
+            fr&aring;n NFC, Link&ouml;ping.
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr-->
+  <tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="370">
+        <tr>
+          <td class="g5" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g5" valign="middle"><a
+            href="intranet/plan.html">Kursuppl&auml;ggning</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td class="g6" valign="middle">... med "schema",
+            nedladdningsbara f&ouml;rel&auml;sningsanteckningar,
+            rekommenderade &ouml;vningsuppgifter, inl&auml;mningsuppgifter m.m.
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="370">
+        <tr>
+          <td class="g5" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g5" valign="middle"><a
+            href="laborationer.html">Laborationer</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td class="g6" valign="middle">... som &auml;r obligatoriska f&ouml;r
+            att f&aring; godk&auml;nt p&aring; kursen och som ger "feedback"
+            fr&aring;n den kursansvarige.
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="370">
+        <tr>
+          <td class="g5" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g5" valign="middle"><a
+            href="intranet">Intranet</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td class="g6" valign="middle">Intern litteratur och data<img
+            src="../../images/empty.gif" width="200" height="1">
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="370">
+        <tr>
+          <td class="g5" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g5" valign="middle"><a href="tentor.html">Tidigare tentor</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td class="g6" valign="middle">... som ger &ouml;vning och en indikation om vilka presationer
+            som f&ouml;rv&auml;ntas d&aring; det blir tentadags.
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!--tr>
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="370">
+        <tr>
+          <td class="g5" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g5" valign="middle"><a href="../../material">Extra material till R&auml;kna med rester</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td class="g6" valign="middle">H&auml;r hittar ni erratalista, bevis av satser i boken, 
+            extra data till &ouml;vningar och 300 siffror l&aring;nga decimalutvecklingar av n&aring;gra
+            trancendenta tal.
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr-->
+    <td>
+      <table border="0" cols="1" cellpadding="0" cellspacing="0" width="0">
+        <tr>
+          <td class="g5" valign="middle">
+           <img src="../../images/hh_pil.gif">&nbsp;&nbsp;&nbsp;
+          </td>
+          <td class="g5" valign="middle"><a href="http://www.r-project.org">R</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td class="g6" valign="middle">Open source statistikprogrammilj&ouml; som rekommenderas.
+            En utm&auml;rkt <a href="http://cran.r-project.org/doc/manuals/r-release/R-intro.pdf">manual</a>
+            finns (tillika gratis) nedladdningsbar fr&aring;n sidan, men om
+            man vill ha n&aring;got riktigt kort kan man kolla p&aring; n&aring;gra <a
+            href="intranet/r_hints.pdf">enkla f&ouml;rsta steg</a> (p&aring; engelska) som man kan &ouml;va
+            med d&aring; man vill testa R.
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>
