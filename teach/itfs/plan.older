@@ -1,0 +1,285 @@
+<html>
+<link rel="stylesheet" href="https://hh-erja.github.io/erja.github.io/css/ericsty.css"
+  type="text/css">
+<head>
+  <title>Till&auml;mpad matematik och statistik f&ouml;r IT-forensik</title>
+</head>
+<body bgcolor="#ffffff">
+
+<div id="teach13"
+style="position:absolute;left:20px;top:15px;z-order:2;decoration:none;visibility:visible">
+<font class="g2">Planering av Till&auml;mpad matematik och statistik f&ouml;r IT-forensik, 15 hp</font><br><br>
+<table cellpadding="3">
+  <tr>
+    <td rowspan="4" valign="top"><font class="g5">Kurslitteratur:</font></td>
+    <td valign="top" align="right"><font class="g5">[<strong>Rester</strong>]</font></td>
+    <td valign="top"><font class="g5"><i>R&auml;kna med rester - matematik att till&auml;mpas inom kryptologi</i><br>
+        J&auml;rpe, Studentlitteratur AB, 2013.</font></td>
+  </tr>
+  <tr>
+    <td valign="top" align="right"><font class="g5">[<strong>StatMet</strong>]</font></td>
+    <td valign="top"><font class="g5"><i>Statistiska metoder</i><br>
+        K&ouml;rner och Wahlgren, Studentlitteratur AB, 2005.</font></td>
+  </tr>
+  <tr><td>&nbsp;</td>
+  </tr>
+<table cellpadding="5" cellspacing="0" border="1">
+<tr><td class="g5" valign="top" bgcolor="#777777"><font color="#ffffff"><i>Vecka</i></font></td>
+    <td class="g5" valign="top" bgcolor="#777777" width="250"><font color="#ffffff"><i>Tillf&auml;lle 1</i></td>
+    <td class="g5" valign="top" bgcolor="#777777" width="250"><font color="#ffffff"><i>Tillf&auml;lle 2</i></td>
+    <td class="g5" valign="top" bgcolor="#777777" width="250"><font color="#ffffff"><i>Tillf&auml;lle 3</i></td>
+    <td class="g5" valign="top" bgcolor="#777777"><font color="#ffffff"><i>Dugga</td></tr>
+<tr><td class="g5" valign="top" rowspan="2" bgcolor="#777777"><font color="#ffffff">45</font></td>
+    <td bgcolor="#ffffcc"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ffffcc"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ffffcc">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ffffcc"><strong><a href="intranet/h01.pdf" target="_top">M&auml;ngder</a></strong><br>
+                                    s. 9-13 i <i>Rester</i></td></tr></table></td>
+    <td bgcolor="#eeffdd"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#eeffdd"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#eeffdd">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#eeffdd"><strong><a href="intranet/h02.pdf" target="_top">Ekv. grad 1 och 2</a></strong><br>
+                                    s. 21-28 i <i>Rester</i></td></tr></table></td>
+    <td bgcolor="#ddffee"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ddffee"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ddffee">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ddffee"><strong><a href="intranet/h03.pdf" target="_top">Ekv. grad &ge;3</a></strong><br>
+                                    s. 20-21, 38-39 i <i>Rester</i></td></tr></table></td>
+   <td class="g5" valign="middle" rowspan="2"><strong>1:1</strong></td></tr>
+<tr>
+    <td bgcolor="#770011"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>1.1</strong>: 1-5 (s. 13-14)
+                                    i <i>Rester</i></font></td></tr></table></td>
+    <td bgcolor="#550033"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>1.3</strong>: 1-4 (s. 38-39)
+                                    i <i>Rester</i></font></td></tr></table>
+    <td bgcolor="#330055"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>1.3</strong>: 5-10 (s. 39-40)
+                                    i <i>Rester</i></font></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" rowspan="2" bgcolor="#777777"><font color="#ffffff">46</font></td>
+    <td bgcolor="#ffffcc"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ffffcc"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ffffcc">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ffffcc"><strong><a href="intranet/h04.pdf" target="_top">Exponentialuttryck</a></strong><br>
+                                    s. 68-69 i <i>Rester</i></td></tr></table></td>
+    <td bgcolor="#eeffdd"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#eeffdd"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#eeffdd">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#eeffdd"><strong><a href="intranet/h05.pdf" target="_top">Logaritmering</a></strong><br>
+                                    s. 69-71 i <i>Rester</i></td></tr></table></td>
+    <td bgcolor="#ddffee"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ddffee"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ddffee">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ddffee"><strong><a href="intranet/h06.pdf" target="_top">Absolutbelopp och funktioner</a></strong><br>
+                                    s. 65-67, 75-78 i <i>Rester</i></td></tr></table></td>
+   <td class="g5" valign="middle" rowspan="2"><strong>1:2</strong></td></tr>
+<tr>
+    <td bgcolor="#770011"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>1.7</strong>: 1, 2, 4, 5 (s. 71-72)
+                                    i <i>Rester</i></font></td></tr></table></td>
+    <td bgcolor="#550033"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>1.7</strong>: 3, 6-10 (s.71-73)
+                                    i <i>Rester</i></font></td></tr></table>
+    <td bgcolor="#330055"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>1.6</strong>: 1-3 (s. 67)<br>
+                                                          <strong>2.1</strong>:
+                                    1-4 (s. 78-79) i <i>Rester</i></font></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" rowspan="2" bgcolor="#777777"><font color="#ffffff">47</font></td>
+    <td bgcolor="#ffffcc"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ffffcc"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ffffcc">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ffffcc"><strong><a href="intranet/h07.pdf" target="_top">Derivata</a></strong><br>
+                                    s. 79-82 i <i>Rester</i></td></tr></table></td>
+    <td bgcolor="#eeffdd"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#eeffdd"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#eeffdd">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#eeffdd"><strong><a href="intranet/h08.pdf" target="_top">Derivata</a></strong><br>
+                                    s. 83-85 i <i>Rester</i></td></tr></table></td>
+    <td bgcolor="#ddffee"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ddffee"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ddffee">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ddffee"><strong><a href="intranet/h09.pdf" target="_top">Optimering</a></strong><br>
+                                    s. 86-93 i <i>Rester</i></td></tr></table></td>
+   <td class="g5" valign="middle" rowspan="2"><strong>1:3</strong></td></tr>
+<tr>
+    <td bgcolor="#770011"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>2.2</strong>: 1 (s. 85-86)
+                                    i <i>Rester</i></font></td></tr></table></td>
+    <td bgcolor="#550033"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>2.2</strong>: 2,3 (s. 86)
+                                    i <i>Rester</i></font></td></tr></table>
+    <td bgcolor="#330055"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>2.3</strong>: 1-8 (s. 93-94)
+                                    i <i>Rester</i></font></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" rowspan="2" bgcolor="#777777"><font color="#ffffff">48</font></td>
+    <td bgcolor="#ffffcc"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ffffcc"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ffffcc">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ffffcc"><strong><a href="intranet/h10.pdf" target="_top">Summor</a></strong><br>
+                                    s. 173-187 i <i>Rester</i></td></tr></table></td>
+    <td bgcolor="#eeffdd"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#eeffdd"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#eeffdd">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#eeffdd"><strong><a href="intranet/h11.pdf" target="_top">Kombinatorik</a></strong><br>
+                                    s. 199-203 i <i>Rester</i></td></tr></table></td>
+    <td bgcolor="#ddffee"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ddffee"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ddffee">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ddffee"><strong><a href="intranet/h12.pdf" target="_top">Binomialkoefficienter</a></strong><br>
+                                    s. 203-205 i <i>Rester</i></td></tr></table></td>
+   <td class="g5" valign="middle" rowspan="2"><strong>1:4</strong></td></tr>
+<tr>
+    <td bgcolor="#770011"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>6.1</strong>: 1,2 (s. 177-178), 3-8 (s. 181),
+                                    9-15 (s. 182-183), 16-18 (s. 184)<br>
+                                                          <strong>6.2</strong>: 1-5 (s. 187-189)
+                                    i <i>Rester</i></font></td></tr></table></td>
+    <td bgcolor="#550033"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>7.1</strong>: 1-10 (s. 205-206)
+                                    i <i>Rester</i></font></td></tr></table>
+    <td bgcolor="#330055"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>7.1</strong>: 11-17
+                                    i <i>Rester</i></font></td></tr></table></td></tr>
+</table><br>
+<table cellpadding="5" cellspacing="0" border="1">
+<tr><td class="g5" valign="top" bgcolor="#777777"><font color="#ffffff"><i>Vecka</i></font></td>
+    <td class="g5" valign="top" bgcolor="#777777" width="250"><font color="#ffffff"><i>Tillf&auml;lle 1</i></td>
+    <td class="g5" valign="top" bgcolor="#777777" width="250"><font color="#ffffff"><i>Tillf&auml;lle 2</i></td>
+    <td class="g5" valign="top" bgcolor="#777777" width="250"><font color="#ffffff"><i>Tillf&auml;lle 3</i></td>
+    <td class="g5" valign="top" bgcolor="#777777"><font color="#ffffff"><i>Dugga</td></tr>
+<tr><td class="g5" valign="top" rowspan="2" bgcolor="#777777"><font color="#ffffff">49</font></td>
+    <td bgcolor="#ffffcc"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ffffcc"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ffffcc">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ffffcc"><strong><a href="intranet/h13.pdf" target="_top">Deskriptiv statistik</a></strong><br>
+                                    s.  i <i>StatMet</i></td></tr></table></td>
+    <td bgcolor="#eeffdd"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#eeffdd"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#eeffdd">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#eeffdd"><strong><a href="intranet/h14.pdf" target="_top">Linj&auml;r regression</a></strong><br>
+                                    s.  i <i>StatMet</i></td></tr></table></td>
+    <td bgcolor="#ddffee"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ddffee"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ddffee">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ddffee"><strong><a href="intranet/h15.pdf" target="_top">Sannolikhetsl&auml;ra</a></strong><br>
+                                    s. 208-215 i <i>Rester</i></td></tr></table></td>
+   <td class="g5" valign="middle" rowspan="2"><strong>2:1</strong></td></tr>
+<tr>
+    <td bgcolor="#770011"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>2</strong>: 201-205 (s. 42-43) och 301-312
+                                    (s. 59-62) i <i>StatMet</i></font></td></tr></table></td>
+    <td bgcolor="#550033"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>4</strong>: 401-414 (s. 81-89)
+                                    i <i>StatMet</i></font></td></tr></table>
+    <td bgcolor="#330055"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>7.2</strong>: 1-7 (s. 212-213) och 8-16
+                                    (s. 215-217) och 27, 33, 37, 40 (s. 238-240)
+                                    i <i>Rester</i> samt extra&ouml;vningar fr&aring;n kurshemsidan</font></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" rowspan="2" bgcolor="#777777"><font color="#ffffff">50</font></td>
+    <td bgcolor="#ffffcc"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ffffcc"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ffffcc">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ffffcc"><strong><a href="intranet/h16.pdf" target="_top">F&ouml;rdelningar</a></strong><br>
+                                    s. 217-231 i <i>Rester</i></td></tr></table></td>
+    <td bgcolor="#eeffdd"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#eeffdd"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#eeffdd">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#eeffdd"><strong><a href="intranet/h17.pdf" target="_top">Normalf&ouml;rdelningen</a></strong><br>
+                                    s. 231-237, 242 i <i></i></td></tr></table></td>
+    <td bgcolor="#ddffee"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ddffee"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ddffee">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ddffee"><strong><a href="intranet/h18.pdf" target="_top">Centrala gr&auml;nsv&auml;rdessatsen</a></strong><br>
+                                    s.  i <i>StatMet</i></td></tr></table></td>
+   <td class="g5" valign="middle" rowspan="2"><strong>2:2</strong></td></tr>
+<tr>
+    <td bgcolor="#770011"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>7.2</strong>: 
+                                    42, 43, 44a,b,c (s. 240-242) i <i>Rester</i></font></td></tr></table></td>
+    <td bgcolor="#550033"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>7.2</strong>: 
+                                    22, 25, 26, 28, 30, 32, 34, 39, 41
+                                    (s. 238-243) i <i>Rester</i></font></td></tr></table>
+    <td bgcolor="#330055"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>7.2</strong>: 
+                                    45, 46, 49-55 (242-244) i <i>Rester</i></font></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" rowspan="2" bgcolor="#777777"><font color="#ffffff">51</font></td>
+    <td bgcolor="#ffffcc"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ffffcc"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ffffcc">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ffffcc"><strong><a href="intranet/h19.pdf" target="_top">Konfidensintervall</a></strong><br>
+                                    s. 105-108 i <i>StatMet</i></td></tr></table></td>
+    <td bgcolor="#eeffdd"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#eeffdd"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#eeffdd">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#eeffdd"><strong><a href="intranet/h20.pdf" target="_top">Hypotestest av &mu;</a></strong><br>
+                                    s. 136-139 i <i>StatMet</i></td></tr></table></td>
+    <td bgcolor="#ddffee"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top" bgcolor="#ddffee"><font size="+4"><strong>F</strong></font></td>
+        <td bgcolor="#ddffee">&nbsp;</td>
+        <td class="g5" valign="top" bgcolor="#ddffee"><strong><a href="intranet/h21.pdf" target="_top">&chi;<sup>2</sup>-test</a></strong><br>
+                                    s. 153-156 i <i>StatMet</i></td></tr></table></td>
+   <td class="g5" valign="middle" rowspan="2"><strong>2:3</strong></td></tr>
+<tr>
+    <td bgcolor="#770011"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>6</strong>: 
+                                    603-605 <i>StatMet</i> samt extra&ouml;vningar fr&aring;n
+                                      kurshemsidan</font></td></tr></table></td>
+    <td bgcolor="#550033"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>7</strong>:
+                                    702, 703 <i>StatMet</i> samt extra&ouml;vningar fr&aring;n
+                                      kurshemsidan</font></td></tr></table>
+    <td bgcolor="#330055"><table cellpadding="0" cellspacing="0" border="0">
+        <td class="g5" valign="top"><font size="+4" color="#ffffff"><strong>&Ouml;</strong></font></td>
+        <td>&nbsp;</td>
+        <td class="g5" valign="top"><font color="#ffffff" size="-2"><strong>8</strong>:
+                                    801 (avg&ouml;r om det &auml;r n&aring;gon skillnad i smak mellan
+                                      hamburgarna) i <i>StatMet</i> samt extra&ouml;vningar fr&aring;n
+                                      kurshemsidan</font></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" bgcolor="#777777"><font color="#ffffff">3</font></td>
+        <td class="g5" valign="top" colspan="4"><strong>Projektredovisningar</strong></td></tr>
+</table><br>
+</div>
+
+</body>
+</html>
