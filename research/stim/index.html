@@ -1,0 +1,68 @@
+<link rel="stylesheet" href="https://hh-erja.github.io/erja.github.io/css/ericsty.css"
+  type="text/css">
+<body bgcolor="#ffffff">
+<div id="stim"
+style="position:absolute;left:5px;top:3px;z-order:1;decoration:none;visibility:visible">
+<font class="g1">Spatio-temporal interaction model</font><br><br>
+<font class="g5">Another variation of the Ising model is the
+<i>Spatio-Temporal Interaction Model (STIM)</i> which is defined as
+follows. <i>n<sup>2</sup></i> sites are
+located in a square lattice, <i>A<sub>n</sub></i>, where each
+site, <i>i</i>, possesses a random state, <i>X<sub>i</sub></i>,
+which takes its values in <i>{ -1, 1 }</i>. The time dimension
+is added by denoting the state at site <i>i</i> at time <i>t</i>
+by <i>x<sub>i</sub>(t)</i> and the random pattern variable by
+<i>X<sub>i</sub>(t)</i>. For simplicity the lattice
+configuration at time <i>t</i> is denoted by <i>x(t)</i> and
+the corresponding random variable by <i>X(t)</i>. To express
+the spatial dependence there is a neighbourhood relation.
+
+Also in the STIM, the neighbourhood of a site <i>i</i>
+are the four closest sites <i>i-1</i>, <i>i+1</i>, <i>i-n</i>,
+and <i>i+n</i> and the set of neighbours to <i>i</i> is
+denoted by <img src="neigh.gif">. The lattice variables have
+the conditional distribution function
+<img src="distr_stim.gif" align="middle"><br>
+where
+<table border="0">
+<tr><td><font class="g5"><i>Z<sup>-1</sup></i></font></td>
+    <td><font class="g5">is a normalising constant</font></td></tr>
+<tr><td><img src="phi.gif"></td>
+    <td><font class="g5">is the spatio-temporal interaction
+        parameter</font></td></tr>
+<tr><td colspan="2"><img src="q.gif" align="middle"> &nbsp;&nbsp;
+        <font class="g5">which is conditionally minimal sufficient
+        for <img src="phi.gif"> given that
+        <i>X(t-1)=x'</i>.</font></td></tr>
+</table>
+Positive values of <img src="phi.gif"> both makes each site
+more likely to be the same as its neighbour and the amount of
+interaction at time <i>t</i> more likely to be the similar to
+the corresponding amount in the previous pattern at time
+<i>t-1</i>. Negative <img src="phi.gif"> both makes neighbours
+more likely to be of opposite values of each other as well as
+the amount of interaction at time <i>t</i> more likely to be
+opposite of the previous amount at time <i>t-1</i>.<br>
+<br>
+For inference about <img src="phi.gif">, one may be interested
+in the conditionally sufficient statistic <img src="q.gif"
+align="middle">. At each time <i>t</i> the lattice
+consists of a Markov field according to the Ising model with
+zero external field, conditional on the previous field at time
+<i>t-1</i> and similarly to the Ising dynamic model, the sequence
+of patterns, <i>{X(1)</i>, <i>X(2)</i>, <i>X(3)</i>, ...
+<i>}</i>, is a Markov chain. However, in contrast to the Ising
+dynamic model, the map <i>Q</i> preserves the Markov property, i.e.
+the sequence of random variables <i>{Q(X(1)), Q(X(2)), Q(X(3)),
+... }</i> is <b>also</b> a Markov chain. This property is very
+useful for inference purposes about <img src="phi.gif">.<br>
+<br>
+Below is a <i>perfect simulation</i> (see Propp and Wilson, 1996),
+of the model with interaction parameter <i><img src="phi.gif"> =
+0.2.</i><br><br>
+<img src="stim_seq.gif">
+<br>
+<br>
+</font>
+</div>
+</body>

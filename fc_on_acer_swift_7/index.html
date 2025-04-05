@@ -1,0 +1,277 @@
+<html>
+<title>I installed FC25 on an Acer Swift 7 and it works like a charm!</title>
+<table border="0" width="100%">
+  <tr>
+    <td><h1>How to fix "No bootable device" on an Acer Swift 7</h1>
+    </td>
+    <!-- td><a href="http://www.linux-on-laptops.com/" title="Linux on Laptops"><img
+        src="linux-on-laptops.gif" 
+	alt="Linux On Laptops" 
+	width="468" 
+	height="60" 
+	border="0"></a>
+    </td -->
+  </tr>
+</table>
+
+<p>
+<h3>Added 2022-04-19</h3>
+Some time ago I upgraded my Swift 7 to Fedora 35 but, upon booting, again I got the "No bootable device" message. This time the remedy was simpler:<br>
+- Enter the <strong>BIOS</strong> (by repeatedly hitting F2 while rebooting)<br>
+- Go to the <strong>Boot</strong> page<br>
+- In the top field <strong>Boot mode</strong>, change the default value <strong>UEFI</strong> to <strong>Legacy</strong><br>
+- Hit <strong>F10</strong> for save and exit
+</p>
+<br>
+<br>
+
+<h3>2017-02-27</h3>
+<p>Initially, having installed Fedora Core 25 according to the usual procedure (for me via booting an installation DVD) and following the instructions, the system enlightened me that the harddrive was not bootable...<br>
+<br>
+<img src="no_bootable_device.jpg" height="500"><br>
+<br>
+After a few confused moments, with the unremitting help from a very kind colleague of mine, a remedy was developed and this is what I would like to share with others in the same predicament.<br>
+<br>
+<table border="1" cellpadding="7" cellspacing="0" width="1000">
+  <tr>
+    <td bgcolor="FFFF00"><b>Disclaimer:</b> There is no guarantee that these instructions will result in a functioning operating system on your computer. These lines are merely intended as an effort to help when nothing else seems to work. <!-- when you have already formatted your harddrive and are willing to try anything to get your linux system up and running. --></td>
+  </td>
+</table><br>
+<br>
+My installation media was to burn FC25 installation image to a DVD, but other possibilities are USB stick, network installation etc, see the <a href="https://getfedora.org">Fedora pages</a> for instructions and downloads of Fedora. Other distros have similar pages.<br>
+<br>
+Upon booting from the installation media, "Install Fedora to harddrive" was chosen, the system was installed BUT it would not boot properly possibly due to that the UEFI bootloader somehow did not agree with the Fedora system.<br>
+<br>
+Instead, to make linux bootable, go along the following steps:<br>
+Upon booting, ferociously hit the [F2] key as to enter the BIOS.<br>
+Go to the section Boot by using the [Right Arrow] key.<br>
+The first line on this page says "Boot mode", and this is set this to "UEFI".<br>
+Change this to "Legacy" by means of [F5] and [F6] (even though the BIOS protests).<br>
+Below, it says "Boot priority order".<br>
+Move "USB DVD" (or whatever installation media is used) to above "HDD" by means of [F5] and [F6].<br>
+Finally hit [F10] to save the changes and exit BIOS.<br>
+<br>
+First choose "Start Fedora-Workstation-Live 25", then choose "Try Fedora".<br>
+From the applications menu choose Terminal (i.e. going to the left edge of the screen with the mouse pointer, an icon with nine dots - each the size of 1 mm<sup>2</sup> arranged in 3x3 grid - and from pressing this all applications are shown. Scrolling down this list there is the subgroup Utilities, and having pressed this one Terminal becomes available, so select that).<br>
+Rearrange into new partitions. (It is recommended that as much space as there is RAM is devoted to swap space; here let us assume we have 16 GB RAM on a 256 GB harddrive -- default on Acer Swift 7.)<br>
+In the terminal, become root (or sudo all commands henceforth).<br>
+In the terminal write:<br>
+<table border="0" cellpadding="7" width="1000">
+  <tr>
+    <td align="right" width="170"><font size="+1"><code>#</code>
+    </td>
+    <td bgcolor="#AAFFFF" width="450"><font size="+1"><code>fdisk</code></font>
+    </td>
+    <td>(Start the fdisk program for editing the partition table)
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code>Command (m for help): </code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>o</code></font>
+    </td>
+    <td>(Deletes all previous partitions and creates a new, empty partition table)
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>n p</code></font>
+    </td>
+    <td>(Create the new partition sda1 --  root partition)
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>+80G</code></font>
+    </td>
+    <td>(Space for sda1)
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>t 83</code></font>
+    </td>
+    <td>(Set type for sda1 to "Linux")
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>n p</code></font>
+    </td>
+    <td>(Create the new partition sda2 -- swap partition)
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>+17G</code></font>
+    </td>
+    <td>(Space for sda2. Recommended size is 1.05*RAM))
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>t 82</code></font>
+    </td>
+    <td>(Set type for sda2 to "Linux-Swap")
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>n p</code></font>
+    </td>
+    <td>(Create the new partition sda3 -- home partition)
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>&lt;return&gt;</code></font>
+    </td>
+    <td>(Space for sda3. Having chosen 17 GB for swap
+      and 80 GB for root, the rest -- about 159 GB -- is for the home partition)
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>t 83</code></font>
+    </td>
+    <td>(Set type for sda3 to "Linux")
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>a 1</code></font>
+    </td>
+    <td>(make the root partition, sda1, bootable)
+    </td>
+  </tr>
+</table><br>
+ So far nothing has been done to the harddrive. The next step will. <!-- This is the actual formatting step. And it is really irrecoverably formatting the harddrive. --> This is the "Point of no return"...<br>
+<table border="0" cellpadding="7" width="1000">
+  <tr>
+    <td align="right" width="170"><font size="+1"><code></code>
+    </td>
+    <td bgcolor="#AAFFFF" width="450"><font size="+1"><code>w</code></font>
+    </td>
+    <td>(write to fstab and exit)
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code>#</code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>sync</code></font>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code>#</code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>reboot</code></font>
+    </td>
+  </tr>
+</table><br>
+<br>
+Again choose "Start Fedora-Workstation-Live 25" and "Try Fedora".<br>
+<table border="0" cellpadding="7" width="1000">
+  <tr>
+    <td align="right" width="170"><font size="+1"><code>#</code>
+    </td>
+    <td bgcolor="#AAFFFF" width="450"><font size="+1"><code>dd if=/dev/zeros of=/dev/sda1 bs=1M count=1</code></font>
+    </td>
+    <td>(Hard format the new partitions)
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code>#</code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>dd if=/dev/zeros of=/dev/sda2 bs=1M count=1</code></font>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code>#</code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>dd if=/dev/zeros of=/dev/sda3 bs=1M count=1</code></font>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code>#</code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>mkswap /dev/sda2 -L SWAP</code></font>
+    </td>
+    <td>(Make them of proper type and label only to facilitate understanding what is what)
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code>#</code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>mkfs.ext4 /dev/sda1 -L ROOT</code></font>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td align="right"><font size="+1"><code>#</code>
+    </td>
+    <td bgcolor="#AAFFFF"><font size="+1"><code>mkfs.ext4 /dev/sda3 -L HOME</code></font>
+    </td>
+  </tr>
+</table><br>
+Then, still booting from the DVD, after the "Start Fedora-Workstation-Live 25" routine, choose "Install to harddrive" this time and follow the instructions to install Fedora to the partitions.</p>
+
+<table border="0" width="800">
+  <tr>
+    <td width="420"><img src="my_acer_swift_7.jpg" height="250"></td>
+    <td width="500"><img src="acer-swift-7-16.jpg" height="250"></td>
+  </tr>
+</table>
+<!-- img src="now_working_like_a_charm.jpg" -->
+
+<p>Once I'd made everything work (audio, video, wifi, all software etc) I wanted a second charger (since it is cumbersome to bring one back and forth between work and home every day). To this end, after having googled "charger" and "swift 7", one of the few hits was <!-- a href="https://www.subtel.de/en/Laptop-Accessories/Acer/filter/Models-Swift_7" -->one called Subtel <!-- (N.B. Do not buy this one!!!) /a --> from a German company. On their homepage they clearly state it is for the Acer Swift 7 (as well as some other Acer models). It does provide the less common USB C 3.1 contact and it is pictured on their homepage. As soon as I'd got it I attached it but no charging occurred. The diode on the transformer unit was shining indicating that the power cord was in order, so I suspected the cord between the transformer and the computer to be the culprit. But when I came to work next day and I attached my original charger, this one did not charge either. What possibly had happened was that the Subtel charger deliverd the wrong voltage and thus the USB C socket for charging was blown. I then sent the computer to Acer Repairs (via my vendor). Since the repair of this USB socket is done by replacing the whole motherboard the vendor told me I could be expecting a cost of repair to about 700 euro. After a few weeks of angst-ridden waiting I got it back with the comment from Acer that I shouldn't pay anything; the whole thing was paid by my guarantee. And in addition they sent me an extra <b>original</b> charger. Then it was just to start all over with the entire installation process again... ;)<br>
+<br>
+Having recovered from this traumatic event I would like to issue a word of warning:<br><br>
+<table border="3" cellpadding="3" width="1000" bordercolor="#ee0000">
+  <tr>
+    <td><font color="#ee0000" size="+2">
+      <b>Do NOT buy the Subtel charger for the Acer Swift 7</b></font>
+    </td>
+  </td>
+</table><br>
+-- it doesn't do the work. And it destroys your computer. (Or rather it destroys the USB socket, but without being able to charge your battery or run the computer on direct power feed, it will not work.)</p>
+<br>
+<hr>
+<br>
+After having installed Fedora Core properly, as root, run<br>
+<table border="0" cellpadding="7" width="1000">
+  <tr>
+    <td align="right" width="170"><font size="+1"><code>#</code>
+    </td>
+    <td bgcolor="#AAFFFF" width="450"><font size="+1"><code>dnf update</code></font>
+    </td>
+    <td>(in order to make everything up to scratch)</td>
+  </tr>
+</table><br>
+and activate RPMFusion repositry, gnome-tweaks and software according to your preferences -- se e.g. <!-- a href="https://www.tecmint.com/things-to-do-after-fedora-24-workstation-installation">Tecmint</a --> <a href="http://www.2daygeek.com/things-to-do-after-installing-fedora-25-workstation">2daygeek</a> <!-- a href="https://db.fyi/tech/things-you-must-do-after-installing-fedora">Deepak Bansal</a --> but there are many others...<br>
+<table border="0" width="100%">
+  <tr>
+    <td width="80%">Happy linuxing!!
+    </td>
+    <td><img src="neo-tux.png" width="150">  
+    </td>
+  </tr>
+</table>
+</html>
+
