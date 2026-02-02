@@ -1,0 +1,183 @@
+<html>
+<link rel="stylesheet" href="https://hh-erja.github.io/erja.github.io/css/ericsty.css"
+  type="text/css">
+<head>
+  <title>Krypteringsmetoder och s&auml;kring av datasystem</title>
+</head>
+<body bgcolor="#ffffff">
+
+<div id="teach13"
+style="position:absolute;left:20px;top:15px;z-order:2;decoration:none;visibility:visible">
+<font class="bo4">Planering f&ouml;r Krypteringsmetoder och s&auml;kring av datasystem, 7.5 hp</font><br><br>
+<font class="g5">All undervisning finns b&aring;de i sal (se TimeEdit f&ouml;r schema) och via Zoom:<br>
+<strong>Zooml&auml;nk</strong>: <a href="https://hh-se.zoom.us/j/2626157243?pwd=Si9NNzIxM3oyTGhtNUZLNjR3RjdlZz09">https://hh-se.zoom.us/j/2626157243?pwd=Si9NNzIxM3oyTGhtNUZLNjR3RjdlZz09</a><br>
+<strong>Meeting ID</strong>: 262 615 7243<br>
+<strong>Passcode</strong>: 050356<br>
+<br>
+<table cellpadding="3">
+  <tr>
+    <td rowspan="5" valign="top"><font class="g5">Kurslitteratur:</font></td>
+    <td valign="top" align="right"><font class="g5">[<strong>J&auml;rpe</strong>]</font></td>
+    <td valign="top"><font class="g5"><i>R&auml;kna med rester - matematik att till&auml;mpas inom kryptologi</i><br>
+        Eric J&auml;rpe, Tolle Lege, 2024.</font></td>
+  </tr>
+  <tr>
+    <td valign="top" align="right"><font class="g5">[<strong>Blom</strong>]</font></td>
+    <td valign="top"><font class="g5"><i>Sannolikhetsteori och statistikteori med till&auml;mpningar</i><br>
+        Gunnar Blom m.fl., Studentlitteratur, 2017.</font></td>
+  </tr>
+  <tr>
+    <td valign="top" align="right"><font class="g5">[<strong>Extra</strong>]</font></td>
+    <td valign="top"><font class="g5"><i>Extra&ouml;vningar</i> fr&aring;n <a href="intranet/index.html">intranetsidan</a></font></td>
+  </tr>
+</table>
+<br>
+<table cellpadding="3">
+  <tr>
+    <td rowspan="5" valign="top"><font class="g5">Referenslitteratur:</font></td>
+    <td valign="top" align="right"><font class="g5">[<strong>Smart</strong>]</font></td>
+    <td valign="top"><font class="g5"><i>Cryptography -- an Introduction</i><br>
+        Nigel Smart, McGrawHill, 3rd ed., 2013</font></td>
+  </tr>
+  <tr>
+    <td valign="top" align="right"><font class="g5">[<strong>HPS</strong>]</font></td>
+    <td valign="top"><font class="g5"><i>An Introduction to Mathematical Cryptography</i><br>
+         Jeffrey Hoffstein, Jill Pipher and Joseph H. Silverman, Springer, 2nd ed., 2014</font></td>
+  </tr>
+</table>
+<br>
+<table cellpadding="5" cellspacing="0" border="1" width="700">
+<!-- tr><td colspan="2" class="g5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M&aring;ndag</td>
+    <td class="g5">Torsdag</td></tr -->
+<tr><td class="g5" valign="top"><i>Vecka</i></td>
+    <td class="g5" valign="top"><i>F&ouml;rel&auml;sning</i></td>
+    <td class="g5" valign="top"><i>&Ouml;vning</td></tr>
+<tr><td class="g5" valign="top" rowspan="2">4</td>
+    <td class="g5" valign="top" colspan="2">F1: <a href="intranet/h01.pdf.pdf">Intro, problemformulering, historia</a><br>
+        s. 137-144 i <strong>J&auml;rpe</strong> <table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/FK7POBmegd4"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+  <tr><td class="g5" valign="top">F2: <a href="intranet/h02.pdf.pdf">Historia, substitutionskrypto, heltalsdivision</a><br>
+        s. 313-319 i <strong>J&auml;rpe</strong><br>
+        Pencast: <a href="kongruens.pdf">Ber&auml;kna principala resten till<br> <font color="#cc0000">47<sup>37</sup>+73<sup>74</sup> (mod 5)</font></a><br>
+        Pencast: <a href="kongruensekvation.pdf">L&ouml;s kongruensekvationen<br> <font color="#cc0000">x<sup>7</sup>+3x<sup>2</sup>-7x &#8801; 3 (mod 5)</font></a> <table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/3XfCRO_QXwk"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td>
+    <td class="g5" valign="top">&Ouml;vn. som l&ouml;ses vid r&auml;kne&ouml;vningen:
+        <ul>
+        <li>5: 1, 5, 6, 7, 8, 11a</li>
+        </ul>
+        ur <strong>J&auml;rpe</strong><br>
+        <table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/94ME4PuKCp0"><font color="#ffffff" size="-1"><strong>INSPELNING 1</strong></font></a></td></tr></table> <table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/zXusbpth0cA"><font color="#ffffff" size="-1"><strong>INSPELNING 2</strong></font></a></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" rowspan="2">5</td>
+    <td class="g5" valign="top">F3: <a href="intranet/h03.pdf.pdf">Enigma, G-skrivaren, Vernamkrypto, DES, modulor&auml;kning</a><br>
+        s. 342-349, 437-462 i <strong>J&auml;rpe</strong><br>
+    Pencast: <a href="primtalsfaktorisering.pdf">Primtalsfaktorisera <font color="#cc0000">12&nbsp;259&nbsp;660</font></a><br>
+    Pencast: <a href="diskr_inv1.pdf">Ber&auml;kna diskreta inversen till <font color="#cc0000">5 mod 71801</font></a><br>
+    Pencast: <a href="diskr_inv3.pdf">Ber&auml;kna diskreta inversen till <font color="#cc0000">52 mod 371</font></a><br>
+    Pencast: <a href="diskr_inv4.pdf">Ber&auml;kna diskreta inversen till <font color="#cc0000">2&nbsp;091 mod 199&nbsp;004</font></a> <table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/LI4HRnHjNvQ"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td>
+    <td class="g5" valign="top">&Ouml;vn. som l&ouml;ses vid r&auml;kne&ouml;vningen:
+        <ul>
+        <li>5: 18, 19, 22, 53, 57, 58, 72b</li>
+        </ul>
+        ur <strong>J&auml;rpe</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/jYCkSeiCxmY"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+  <tr><td class="g5" valign="top" bgcolor="#555555" colspan="2"><a href="intranet/f_lab1.pdf.pdf"><font class="bw4">Laboration 1: Substitutionskrypton</a><br>
+        <a href="laborationer.html"><font class="rw5">PM och data till Lab 1</font></a><br>
+<table bgcolor="#ffffff" border="0"><tr><td><a href="https://youtu.be/rqTp4fxte4s"><font color="#000000" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" rowspan="2">6</td>
+    <td class="g5" valign="top" colspan="2">F4: <a href="intranet/h04.pdf.pdf">Kvantdatorn, primtal, faktorisering och delbarhet</a><br>
+        s. 320-342, 512-518 i <strong>J&auml;rpe</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/KloAe8-upWg"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+  <tr><td class="g5" valign="top">F5: <a href="intranet/h05.pdf.pdf">Diofantiska ekvationer, digital signering, Eulers &phi;-funktion</a><br>
+        s. 349-376, 536-543 i <strong>J&auml;rpe</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/kNtUeBicEo0"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td>
+    <td class="g5" valign="top">&Ouml;vn. som l&ouml;ses vid r&auml;kne&ouml;vningen:
+        <ul>
+        <li>5: 24c, 24i, 24m, 24n, 24o (alt. 24g), 26, 30a, 32, 36j, 36q, 39, 41c, 42d</li>
+        </ul>
+        ur <strong>J&auml;rpe</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/MuGmHo_8l6U"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" rowspan="2">7</td>
+    <td class="g5" valign="top">F6: <a href="intranet/h06.pdf.pdf">Nyckelhantering, ECC, MQV, LFSR</a><br>
+        s. 405-416, 421-435, 485-488 i <strong>J&auml;rpe</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/ZpLpAFWVk4A"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td>
+    <td class="g5" valign="top">&Ouml;vn. som l&ouml;ses vid r&auml;kne&ouml;vningen:
+        <ul>
+        <li>5: 45d, 45j, 79, 82, 85u, 91, 99d, 102j, 106b, 109c</li>
+        </ul>
+        ur <strong>J&auml;rpe</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/LRTAPCMQGpo"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+  <tr><td class="g5" valign="top" bgcolor="#555555" colspan="2"><a href="intranet/f_lab2.pdf.pdf"><font class="bw4">Laboration 2: RSA</a><br>
+        <a href="laborationer.html"><font class="rw5">PM och data till Lab 2</font></a><br>
+<table bgcolor="#ffffff" border="0"><tr><td><a href="https://youtu.be/eqgPYYV6Nrk"><font color="#000000" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" rowspan="2">8</td>
+    <td class="g5" valign="top">F7: <a href="intranet/h07.pdf.pdf">RSA, Generatorer, El Gamal, Rabin</a><br>
+        s. 268-270 i <strong>Gollmann</strong>, s. 166-171 i <strong>J&auml;rpe</strong> och s. 13-15, 178-179 i <strong>Smart</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/uQqy2lcLWfE"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table> <table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/tXjaKcWz-C8"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td>
+    <td class="g5" valign="top">&Ouml;vn. som l&ouml;ses vid r&auml;kne&ouml;vningen:
+        <ul>
+        <li>Extra &ouml;vningar p&aring; generatorer: uppg. 1-6</li>
+        </ul>
+        ur <strong>Extra</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/sioXa6QR348"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table><table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/Fw34TLAanOk"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+  <tr><td class="g5" valign="top">F8: <a href="intranet/h08.pdf.pdf">Kryptoanalys, hashsummor, steganografi, steganalys</a><br>
+        s. 266 i <strong>Gollman</strong> och s. 124-125, 131-134 i <strong>Smart</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/f-8SRSHilM4"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td>
+    <td class="g5" valign="top">&Ouml;vn. som l&ouml;ses vid r&auml;kne&ouml;vningen:
+        <ul>
+        <li>Extra &ouml;vningar p&aring; linj&auml;r algebra: uppg. 10-11</li>
+        </ul>
+        ur <strong>Extra</strong></td></tr>
+<tr><td class="g5" valign="top" rowspan="2">9</td>
+    <td class="g5" valign="top">F9: <a href="intranet/h09.pdf.pdf">Lite lnj&auml;r algebra, AES, McEliece</a><br>
+        s. 412-425 i <strong>HPS</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/0R8ZV62e504"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td>
+    <td class="g5" valign="top">&Ouml;vn. som l&ouml;ses vid r&auml;kne&ouml;vningen:
+        <ul>
+        <li>Extra &ouml;vningar p&aring; gcd f&ouml;r polynom: uppg. 1-2</li>
+        </ul>
+        ur <strong>Extra</strong></td></tr>
+  <tr><td class="g5" valign="top">F10: <a href="intranet/h10.pdf.pdf">NTRU</a><br>
+        s. 270-272 i <strong>Gollman</strong>, s. 124-125 i <strong>J&auml;rpe</strong> och s. 203-206 i <strong>Smart</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/HfAfN8uuAto"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td>
+    <td class="g5" valign="top">&Ouml;vn.
+        <ul>
+        <li>Extra &ouml;vningar p&aring; modulor&auml;kning med polynom och diskret polynominvers: uppg. 1-3</li>
+        </ul>
+        ur <strong>Extra</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/78WXJULFjNc"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table><a href="pol_invers_exempel.pdf">H&auml;r &auml;r en l&ouml;sning av det f&ouml;rsta exemplet med diskreta polynominversen</a><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/t__O8iEpxgI"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table><table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/2TblYYVowYo"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table><a href="pol_invers_exempel2.pdf">H&auml;r &auml;r en l&ouml;sning av det andra exemplet med diskreta polynominversen</a></td></tr>
+<tr><td class="g5" valign="top" rowspan="2">10</td>
+    <td class="g5" valign="top">F11: <a href="intranet/h11.pdf.pdf">Forts. NTRU, styrka, diskret logaritm</a><br>
+        s. 245-254 i <strong>J&auml;rpe</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/w4io_2NAw88"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table><table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/vGbalW6FkKQ"><font color="#ffffff" size="-1"><strong>NTRU-EXEMPEL</strong></font></a></td></tr></table> <!--som kommer att r&auml;knast p&aring; r&auml;kne&ouml;vningen imorgon -- s&aring; s&auml;tt ig&aring;ng att l&ouml;sa det s&aring; l&aring;ngt du kan innan dess!--></td>
+    <td class="g5" valign="top">&Ouml;vn. som l&ouml;ses vid r&auml;kne&ouml;vningen:
+        <ul>
+        <li>Extra &ouml;vningar p&aring; &ouml;verf&ouml;ringskvalitet: uppg. 1-4</li>
+        </ul>
+        ur <strong>Extra</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/g4fFZZzoueg"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+  <tr><td class="g5" valign="top" bgcolor="#555555" colspan="2"><a href="intranet/f_lab3.pdf.pdf"><font class="bw4">Laboration 3: Kryptoanalys</a><br>
+        <a href="laborationer.html"><font class="rw5">PM och data till Lab 3</font></a><br>
+<table bgcolor="#ffffff" border="0"><tr><td><a href="https://youtu.be/dWbJKqng6YY"><font color="#000000" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+<tr><td class="g5" valign="top" rowspan="2">11</td>
+    <td class="g5" valign="top">F12: <a href="intranet/h12.pdf.pdf">&Ouml;verf&ouml;ringskvalitet och processkontroll</a><br>
+        257-259 i <strong>Gollman</strong>, 153-164 i <strong>Smart</strong> och s. 5-8, 30 i <strong>Singh</strong></td>
+    <td class="g5" valign="top">&Ouml;vn. som l&ouml;ses vid r&auml;kne&ouml;vningen:
+        <ul>
+        <li>Extra &ouml;vningar p&aring; blandade uppgifter</li>
+        </ul>
+        ur <strong>Extra</strong></td></tr>
+  <tr><td class="g5" valign="top">F13: <a href="intranet/h13.pdf.pdf">S&auml;kerhetsprinciper, Kerberos, PRNG och en <strong>utmaning</strong></a><br>
+        s. 14-15, 24-26 <strong>Gollman</strong> och s. 221 i <strong>Smart</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/1EM3gBh3FAE"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td>
+    <td class="g5" valign="top">&Ouml;vn. som l&ouml;ses vid r&auml;kne&ouml;vningen:
+        <ul>
+        <li>Extra &ouml;vningar p&aring; blandade uppgifter</li>
+        </ul>
+        ur <strong>Extra</strong><br>
+<table bgcolor="#555555" border="0"><tr><td><a href="https://youtu.be/WtgXcQImYao"><font color="#ffffff" size="-1"><strong>INSPELNING</strong></font></a></td></tr></table></td></tr>
+<tr><td class="g5" valign="top">13</td>
+    <td class="g5" valign="top" colspan="2" bgcolor="#555555"><font class="rw5">Tentamen</font></td></tr>
+</table><br>
+</div>
+
+</body>
+</html>
