@@ -1,0 +1,59 @@
+div.worldwide {
+
+   xbackground-color: #cfcfcf;
+   padding-top: 12px; padding-bottom: 12px;
+   padding-left: 20px;
+}
+
+div.worldwide * {
+   vertical-align: middle;
+}
+
+div.worldwide a.link {
+   margin-left: 4px;
+   font-size: 9pt;
+   font-weight: bold;
+   color: #202020;
+}
+
+div.worldwide a.link:hover {
+   color: #ff0000;
+}
+
+div.worldwide img {
+}
+
+div.worldwide select {
+   margin-left: 10px;
+   font-size: 10px;
+}
+
+hr.worldwide {
+   margin: 0px 10px;
+}
+
+div.worldwide-menu {
+   position: relative;
+   z-index: 200;
+}
+
+div.worldwide-popup {
+   position: absolute;
+   top: 4px;
+   left: 24px;
+   background: #f0f0f0;
+   width: 170px;
+   border: 1px solid #cccccc;
+}
+
+div.worldwide-popup a {
+   display: block;
+   font-size: 11px;
+   color: #333333;
+   margin: 0px;   
+   padding: 5px 5px;
+}
+
+div.worldwide-popup a:hover {
+   color: #ff0000;
+}
