@@ -1,4 +1,6 @@
-<!--#jdbc name="result2" select="SELECT * FROM users"
+<!doctype html>
+<html>
+    <!--#jdbc name="result2" select="SELECT * FROM users"
           user="bmahe" password=""
           url="jdbc:msql://www43.inria.fr:4333/users"
           driver="com.imaginary.sql.msql.MsqlDriver"  -->
@@ -30,3 +32,4 @@
       </table>
 
       counter value : <!--#cpt name="cpt1" value="true" -->
+      </html>
